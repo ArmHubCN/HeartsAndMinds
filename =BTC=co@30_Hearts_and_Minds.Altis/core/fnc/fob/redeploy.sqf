@@ -55,12 +55,7 @@ if (_fobs_marker isEqualTo []) exitWith {
 private _respawn_positions = _fobs_structure apply {
     private _positions = _x buildingPos -1;
     if (_positions isEqualTo []) then {
-        private _pos = _x getPos [1.5, getDir _x];
-        _pos set [
-            2,
-            ([getPosATL _x, getPosASL _x] select (surfaceIsWater _pos)) select 2
-        ];
-        _pos
+        _x modelToWorld [0, 1.5, 0]
     } else {
         private _availablePos = _positions select {_x select 2 < 1};
         if (_availablePos isEqualTo []) then {
