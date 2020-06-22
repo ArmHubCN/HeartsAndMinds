@@ -28,10 +28,66 @@ btc_custom_loc = [
             "G_Shades_Green"
         ];
 */
-private _weapons = [];
+private _weapons = [
+    "launch_B_Titan_short_tna_F",
+    "launch_O_Titan_short_ghex_F",
+    "launch_B_Titan_tna_F",
+    "launch_O_Titan_ghex_F",
+    "launch_I_Titan_eaf_F",
+    "launch_B_Titan_olive_F",
+    "launch_I_Titan_short_F",
+    "launch_B_Titan_short_F",
+    "launch_O_Titan_short_F",
+    "launch_O_Titan_F",
+    "launch_L_Titan_F",
+    "launch_B_Titan_F",
+    "launch_O_Vorona_brown_F",
+    "launch_O_Vorona_green_F",
+    "launch_MRAWS_olive_rail_F",
+    "launch_MRAWS_sand_rail_F",
+    "launch_MRAWS_green_rail_F",
+    "launch_MRAWS_olive_F",
+    "launch_MRAWS_sand_F",
+    "launch_MRAWS_green_F"
+
+];
 private _magazines = [];
-private _items = [];
-private _backpacks = [];
+private _items = [
+    "H_HelmetO_ViperSP_hex_F",
+    "H_HelmetO_ViperSP_ghex_F",
+    "NVGogglesB_gry_F",
+    "NVGogglesB_grn_F",
+    "NVGogglesB_blk_F",
+    "V_PlateCarrierGL_mtp",
+    "V_PlateCarrierGL_wdl",
+    "V_PlateCarrierGL_rgr",
+    "V_PlateCarrierGL_blk",
+    "V_PlateCarrierSpec_mtp",
+    "V_PlateCarrierSpec_wdl",
+    "V_PlateCarrierSpec_rgr",
+    "V_PlateCarrierSpec_blk",
+    "U_I_Protagonist_VR",
+    "U_C_Protagonist_VR",
+    "U_O_Protagonist_VR",
+    "U_B_Protagonist_VR",
+    "B_ViperHarness_blk_F",
+    "B_ViperHarness_ghex_F",
+    "B_ViperHarness_hex_F",
+    "B_ViperHarness_khk_F",
+    "B_ViperHarness_oli_F",
+    "B_ViperLightHarness_blk_F",
+    "B_ViperLightHarness_ghex_F",
+    "B_ViperLightHarness_hex_F",
+    "B_ViperLightHarness_khk_F",
+    "B_ViperLightHarness_oli_F",
+    "UK3CB_BAF_B_Bergen_MTP_Rifleman_XL_A"
+];
+private _backpacks = [
+    "B_Bergen_mcamo_F",
+    "B_Bergen_hex_F",
+    "B_Bergen_dgtl_F",
+    "B_Bergen_tna_F"
+];
 
 btc_custom_arsenal = [_weapons, _magazines, _items, _backpacks];
 
